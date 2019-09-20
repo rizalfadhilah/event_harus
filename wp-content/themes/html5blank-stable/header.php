@@ -74,4 +74,32 @@
 	#wpadminbar{
 		display: none;
 	}
+	@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#days {
+  font-size: 100px;
+  color: #db4844;
+}
+#hours {
+  font-size: 70px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 50px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 30px;
+  color: #abcd58;
+}
+span {
+  display: block;
+  font-size: 10px;
+  color: white;
+}
+
+/*------------ we are  -----*/
+.we a{
+    font-size:12px;
+}
 </style>

@@ -25,16 +25,16 @@
                 </div>
 
                 <div id="slide_two" class="swiper-slide">
-                  <div id="lab_video_text_overlay">
-                    <div class="container">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/logo-sc.png">
-
-                    </div>
-                  </div>
+                  
                   <!-- end #lab_overlay -->
 
-                  <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="<?php echo get_template_directory_uri(); ?>/img/2.png">
+                   <!-- VIDEO -->
+            <video class="slider-video" width="100%" preload="auto" loop="" onloadedmetadata="this.muted = true" playsinline autoplay muted loop autoplay="false" style="visibility: visible; width: 100%;" poster="img/1.png">
+              <source src="<?php echo get_template_directory_uri(); ?>/video/SC_World_X.mp4" type="video/mp4">
+                <source src="<?php echo get_template_directory_uri(); ?>/video/SC_World_X.mp4" type="video/webm">
+                  <source src="<?php echo get_template_directory_uri(); ?>/video/SC_World_X.mp4" type="video/ogg">
                   </video>
+                  <!-- END VIDEO -->
 
 
                 </div>
@@ -57,15 +57,23 @@
                   <h3 style="margin-bottom: 20px">
                     ----- COUNTDOWN TIMER -----
                   </h3>
+                  <div class="row">
+                    <div id="timer">
+                      <div id="days"></div>
+                      <div id="hours"></div>
+                      <div id="minutes"></div>
+                      <div id="seconds"></div>
+                    </div>
+                  </div>
                   <span class="data">
-                    <p><b>4 DAYS &nbsp;&nbsp;&nbsp;&nbsp;  5 CITIES</b></p>
+                    <p><b style="font-size: 40px">4</b> DAYS &nbsp;&nbsp;&nbsp;&nbsp;  <b style="font-size: 40px">5</b> CITIES</p>
                     <br>
                     JAKARTA – CIREBON – SEMARANG – JOGJA – SURABAYA
 
                   </span>
                 </div>
                 <div class="col-md-6" style="padding: 1%;">
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/bg-images.png" alt=""/>
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/MAP_ROUTE.png" alt=""/>
                 </div>
               </div>
 
