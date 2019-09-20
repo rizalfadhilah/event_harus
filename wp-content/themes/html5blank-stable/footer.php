@@ -108,29 +108,8 @@
                 </div>
               </div>
               <div class="row text-center">
-                <div class="col-md-8">
-                 <form action="#" class="contact-form">
-                  <div class="row">
-                   <div class="col-xl-6">
-                    <input type="text" placeholder="name">
-                  </div>
-                  <div class="col-xl-6">
-                    <input type="text" placeholder="email">
-                  </div>
-                  <div class="col-xl-6">
-                    <input type="text" placeholder="subject">
-                  </div>
-                  <div class="col-xl-6">
-                    <input type="text" placeholder="telephone">
-                  </div>
-                  <div class="col-xl-12">
-                    <textarea placeholder="message" cols="30" rows="10"></textarea>
-                    <input type="submit" id="kirim" value="send message">
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="col-md-4">
+                
+            <div class="col-md-12">
              <div class="single-contact">
               <h5>Event Organizers:</h5>
               <p>Aldo: 081319190002 <br>

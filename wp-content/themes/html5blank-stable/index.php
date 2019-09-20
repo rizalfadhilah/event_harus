@@ -15,18 +15,11 @@
         <div class="swiper-wrapper">
 
           <div id="slide_one" class="swiper-slide">
-            <div id="lab_video_text_overlay">
-              <div class="container">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/logo-sc.png">
-                
-
-              </div>
-            </div>
-            <!-- VIDEO -->
+             <!-- VIDEO -->
             <video class="slider-video" width="100%" preload="auto" loop="" onloadedmetadata="this.muted = true" playsinline autoplay muted loop autoplay="false" style="visibility: visible; width: 100%;" poster="img/1.png">
-              <source src="<?php echo get_template_directory_uri(); ?>/video/satu.mp4" type="video/mp4">
-                <source src="<?php echo get_template_directory_uri(); ?>/video/satu.mp4" type="video/webm">
-                  <source src="<?php echo get_template_directory_uri(); ?>/video/satu.mp4" type="video/ogg">
+              <source src="<?php echo get_template_directory_uri(); ?>/video/SC_World_X.mp4" type="video/mp4">
+                <source src="<?php echo get_template_directory_uri(); ?>/video/SC_World_X.mp4" type="video/webm">
+                  <source src="<?php echo get_template_directory_uri(); ?>/video/SC_World_X.mp4" type="video/ogg">
                   </video>
                   <!-- END VIDEO -->
                 </div>
@@ -55,7 +48,7 @@
             </div>
 
 
-            <div class="header-content">
+            <div class="header-content" id="were">
              <h2 style="text-align: center;">WE’RE BACK!</h2>
              <p>After 4 years, we are finally back with our first ever touring event! Speed Creed is proud to announce that we have partnered with World X Rally from the UK to organize a 4-day touring event from Jakarta to Surabaya. What started in the UK and Europe, World X Rally is now known for holding rallies worldwide, from Japan, South Africa, to India and Australia. </p>
              <div class="container section">
@@ -81,10 +74,11 @@
             
           </div>
 
-          <div class="container" style="margin-top: 20px;">
+          <div class="container" id="itinerary" style="margin-top: 20px;">
             <div class="row">
-              <div class="col-md-12 ml-auto col-xl-12 mr-auto">
+              <div class="col-md-12 ml-auto col-xl-8 mr-auto">
                 <center><h2>ITINERARY</h2></center>
+                <p style="font-size: 23px; text-align: center;">Below is the planned itinerary of our touring, but is subject to change. We will notify the final itinerary at the latest 2 weeks before the event.</p>
                 <!-- Nav tabs -->
                 <div class="card">
                   <div class="card-header">
@@ -116,39 +110,120 @@
                     <!-- Tab panes -->
                     <div class="tab-content text-center">
                       <div class="tab-pane active" id="home" role="tabpanel">
-                        <p style="text-align: left;">1) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. (day1) <br>
-                          2) Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
-                          3) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-                          4) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua.
+                        <p style="text-align: left;">
+                          <table class="table table-striped">
+                            <tr>
+                              <td>6.00</td>
+                              <td>:</td>
+                              <td>Registration</td>
+                            </tr>
+                            <tr>
+                              <td>7.00</td>
+                              <td>:</td>
+                              <td>Mandatory Briefing</td>
+                            </tr>
+                            <tr>
+                              <td>8.00</td>
+                              <td>:</td>
+                              <td>TOURING STARTS</td>
+                            </tr>
+                            <tr>
+                              <td>11.30</td>
+                              <td>:</td>
+                              <td>Lunch in Cirebon</td>
+                            </tr>
+                            <tr>
+                              <td>13.30</td>
+                              <td>:</td>
+                              <td>Head East to Semarang </td>
+                            </tr>
+                            <tr>
+                              <td>17.00</td>
+                              <td>:</td>
+                              <td>Check-in at PO Hotel Semarang</td>
+                            </tr>
+                            <tr>
+                              <td>19.00</td>
+                              <td>:</td>
+                              <td>Poolside BBQ Dinner</td>
+                            </tr>
+                          </table>
+                          
                         </p>
                       </div>
                       <div class="tab-pane" id="profile" role="tabpanel">
-                        <p style="text-align: left;">1) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. (day2) <br>
-                          2) Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
-                          3) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-                          4) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua.
+                        <p style="text-align: left;">
+                          <table class="table table-striped">
+                            <tr>
+                              <td>8.00</td>
+                              <td>:</td>
+                              <td>Cars & Coffee with Speed Creed</td>
+                            </tr>
+                            <tr>
+                              <td>10.30</td>
+                              <td>:</td>
+                              <td>Begin Drive to Yogyakarta</td>
+                            </tr>
+                            <tr>
+                              <td>14.00</td>
+                              <td>:</td>
+                              <td>Lunch at Abhayagiri Yogyakarta</td>
+                            </tr>
+                            <tr>
+                              <td>16.00</td>
+                              <td>:</td>
+                              <td>Head to Plataran Borobudur</td>
+                            </tr>
+                            <tr>
+                              <td>17.30</td>
+                              <td>:</td>
+                              <td>Check-in at Plataran Borobudur</td>
+                            </tr>
+                            <tr>
+                              <td>19.00</td>
+                              <td>:</td>
+                              <td>Dinner at Patio Venue</td>
+                            </tr>
+                            
+                          </table>
                         </p>
                       </div>
                       <div class="tab-pane" id="messages" role="tabpanel">
-                        <p style="text-align: left;">1) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. (day3) <br>
-                          2) Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
-                          3) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-                          4) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua.
+                        <p style="text-align: left;">
+                          <table class="table table-striped">
+                            <tr>
+                              <td>8.00</td>
+                              <td>:</td>
+                              <td>Breakfast at Plataran Borobudur</td>
+                            </tr>
+                            <tr>
+                              <td>10.00</td>
+                              <td>:</td>
+                              <td>Head east to Surabaya</td>
+                            </tr>
+                            <tr>
+                              <td>15.00</td>
+                              <td>:</td>
+                              <td>Check-in at Shangri-La Surabaya</td>
+                            </tr>
+                            <tr>
+                              <td>16.00</td>
+                              <td>:</td>
+                              <td>Poolside Chill</td>
+                            </tr>
+                            <tr>
+                              <td>19.00</td>
+                              <td>:</td>
+                              <td>Dinner & Afterparty</td>
+                            </tr>
+                            
+                          </table>
                         </p>
                       </div>
+
+
                       <div class="tab-pane" id="settings" role="tabpanel">
-                        <p style="text-align: left;">1) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. (day4) <br>
-                          2) Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
-                          3) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-                          4) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua.
+                        <p style="text-align: left;">Members return to Jakarta as individually scheduled.
                         </p>
                       </div>
                     </div>
